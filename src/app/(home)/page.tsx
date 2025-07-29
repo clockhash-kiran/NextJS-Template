@@ -1,0 +1,18 @@
+import React from "react"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Hero12 } from "@/components/hero12"
+import { Footer7 } from "@/components/footer7"
+
+const Home = () => {
+  return (
+    <main className="min-h-screen text-stone-900 p-6">
+      <section className="max-w-4xl mx-auto">
+        <Hero12 />
+        <Footer7 />
+    </section>
+    </main>
+  )
+}
+
+export default Home
